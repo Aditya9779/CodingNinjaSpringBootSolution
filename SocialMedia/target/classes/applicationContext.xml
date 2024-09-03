@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--There is two of bean scope is their 1)Singleton 2)Prototype-->
+
+
+<!--By default is singleton-->
+    <!-- Scope for the post list is singleton -->
+    <!--By default, is singleton so we do not need to write the scope-->
+    <bean id="simplePostList" class="com.PostApplication.SocialMedia.SimplePostList"
+    init-method="init" destroy-method="destroy"/>
+
+
+
+    <!--We have to make the scope for the different prototype-->
+    <bean id="simplePost" class="com.PostApplication.SocialMedia.SimplePost"
+    scope="prototype" init-method="init"/>
+
+
+    <!--Making the di of the postlist-->
+    <bean id="customer" class="com.PostApplication.SocialMedia.Customer" init-method="init">
+        <property name="postList" ref="simplePostList"></property>
+    </bean>
+
+</beans>
