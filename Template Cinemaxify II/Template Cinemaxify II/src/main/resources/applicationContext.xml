@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--   Tasks: -->
+
+    <!--    # Beans for NormalPlan and PremiumPlan with bean id are already created,
+              you are supposed to add the class attribute to them respectively.       -->
+
+    <bean id="normal" class="com.example.Cinemaxify.NormalPlan"/>
+    <bean id="premium" class="com.example.Cinemaxify.PremiumPlan"/>
+
+    <bean id="selfNormal" class="com.example.Cinemaxify.Self">
+        <constructor-arg ref="normal"></constructor-arg>
+    </bean>
+    <bean id="selfPremium" class="com.example.Cinemaxify.Self">
+        <constructor-arg ref="premium"></constructor-arg>
+    </bean>
+    <bean id="spousePremium" class="com.example.Cinemaxify.Self">
+        <constructor-arg ref="premium"></constructor-arg>
+    </bean>
+    <bean id="spouseNormal" class="com.example.Cinemaxify.Self">
+        <constructor-arg ref="premium"></constructor-arg>
+    </bean>
+
+
+
+    <!--    # Define all beans for different combination of Member & Plan   -->
+    <!--      1. There will be a total 4 combination beans.                 -->
+    <!--      2. A sample bean is provided to you for reference.            -->
+    <!--      3. The bean id will follow the below defined naming
+                 convention                                                 -->
+
+    <!--
+            # The bean id will follow CamelCase Convention:
+
+      a. For ex: My User is Self and Plan is NormalPlan,now their naming
+         convention will be self in lowercase and then Normal in uppercase.
+
+      b. bean id = "selfNormal"
+
+      c. Please note while defining the combination beans we will not be
+         using NormalPlan or PremiumPlan instead we are using 'Normal'
+         and 'Premium' respectively.
+
+      d. <bean id="brotherNormal" class="com.example.Cinemaxify.Brother" >
+        <constructor-arg ref="normal"/>
+    </bean>
+
+      e. Here we have selected normal plan subscription for User ( Brother ).
+
+    -->
+
+</beans>
