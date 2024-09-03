@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--Making the dependency class connection for the process-->
+    <bean id="normalTyre" class="com.CarDealerShip.CarDealerShip.NormalTyre"/>
+    <bean id="heavyTyre" class="com.CarDealerShip.CarDealerShip.HeavyTyre"/>
+    <bean id="sportsTyre" class="com.CarDealerShip.CarDealerShip.SportsTyre"/>
+
+    <!-- For connecting the dependencies of constructor we use the constructor args-->
+    <!--  <bean id="sportsCarSt" class="com.CarDealerShip.CarDealerShip.SportsCar">
+          <constructor-arg ref="sportsTyre"/>
+      </bean>
+      <bean id="sportsCarNt" class="com.CarDealerShip.CarDealerShip.SportsCar">
+          <constructor-arg ref="normalTyre"/>
+      </bean>
+      <bean id="sportsCarHt" class="com.CarDealerShip.CarDealerShip.SportsCar">
+          <constructor-arg ref="heavyTyre"/>
+      </bean>-->
+
+    <!--"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""-->
+    <!-- For connecting the dependencies of setter and getter we use the property-->
+    <bean id="sportsCarSt" class="com.CarDealerShip.CarDealerShip.SportsCar">
+        <property name="addingTyre" ref="sportsTyre"></property>
+    </bean>
+    <bean id="sportsCarNt" class="com.CarDealerShip.CarDealerShip.SportsCar">
+        <property name="addingTyre" ref="normalTyre"></property>
+    </bean>
+    <bean id="sportsCarHt" class="com.CarDealerShip.CarDealerShip.SportsCar">
+        <property name="addingTyre" ref="heavyTyre"></property>
+    </bean>
+
+    <!--******************************************************************************************-->
+    <!--For the connecting the all types of Constructor DI with all the types-->
+    <!--<bean id="fcWithNormalTyre" class="com.CarDealerShip.CarDealerShip.FamilyCar">
+        <constructor-arg ref="normalTyre"/>
+
+    </bean>
+
+    &lt;!&ndash;See the different id and the and ref value is change accroding to the values&ndash;&gt;
+    <bean id="fcWithSportsTyre" class="com.CarDealerShip.CarDealerShip.FamilyCar">
+        <constructor-arg ref="sportsTyre"/>
+    </bean>
+
+    <bean id="fcWithHeavyTyre" class="com.CarDealerShip.CarDealerShip.FamilyCar">
+        <constructor-arg ref="heavyTyre"/>
+    </bean>
+-->
+    <!--""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""-->
+    <!-- For connecting the dependencies of setter and getter we use the property-->
+
+    <bean id="fcWithNormalTyre" class="com.CarDealerShip.CarDealerShip.FamilyCar">
+        <property name="addingTyre" ref="normalTyre"></property>
+
+    </bean>
+
+    <!--See the different id and the and ref value is change accroding to the values-->
+    <bean id="fcWithSportsTyre" class="com.CarDealerShip.CarDealerShip.FamilyCar">
+        <property name="addingTyre" ref="sportsTyre"></property>
+    </bean>
+
+    <bean id="fcWithHeavyTyre" class="com.CarDealerShip.CarDealerShip.FamilyCar">
+        <property name="addingTyre" ref="heavyTyre"></property>
+    </bean>
+
+    <!--***********************************************************************************-->
+
+    <!-- <bean id="truckCarHt" class="com.CarDealerShip.CarDealerShip.TruckCar">
+         <constructor-arg ref="heavyTyre"/>
+     </bean>
+     <bean id="truckCarWithSt" class="com.CarDealerShip.CarDealerShip.TruckCar">
+         <constructor-arg ref="sportsTyre"/>
+     </bean>
+     <bean id="truckCarNt" class="com.CarDealerShip.CarDealerShip.TruckCar">
+         <constructor-arg ref="normalTyre"/>
+     </bean>-->
+    <!--""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""-->
+    <!-- For connecting the dependencies of setter and getter we use the property-->
+
+    <bean id="truckCarHt" class="com.CarDealerShip.CarDealerShip.TruckCar">
+        <property name="addingTyre" ref="heavyTyre"></property>
+    </bean>
+    <bean id="truckCarWithSt" class="com.CarDealerShip.CarDealerShip.TruckCar">
+        <property name="addingTyre" ref="sportsTyre"></property>
+    </bean>
+    <bean id="truckCarNt" class="com.CarDealerShip.CarDealerShip.TruckCar">
+        <property name="addingTyre" ref="normalTyre"></property>
+    </bean>
+
+</beans>
