@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+<bean id="hI" class="com.CoverMate.CoverMate.HealthInsurance"></bean>
+<bean id="tI" class="com.CoverMate.CoverMate.TermInsurance"></bean>
+
+    <!--Customer creation-->
+<bean id="cHi" class="com.CoverMate.CoverMate.Customer">
+    <property name="insurance" ref="hI"></property>
+</bean>
+    <bean id="cTi" class="com.CoverMate.CoverMate.Customer">
+        <property name="insurance" ref="tI"></property>
+    </bean>
+</beans>
