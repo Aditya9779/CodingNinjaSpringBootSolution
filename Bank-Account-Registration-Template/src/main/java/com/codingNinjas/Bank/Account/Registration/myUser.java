@@ -1,5 +1,9 @@
 package com.codingNinjas.Bank.Account.Registration;
 
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
+import org.springframework.stereotype.Component;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,16 +19,19 @@ import java.util.List;
  * c. Build the logic for all the methods based on the description mentioned in the Account Interface.
  **/
 
+@Component("myUser")
 public class myUser implements User {
     private String name;
     List<Account> accountList;
    public myUser(){
        accountList = new ArrayList<Account>();
    }
+   @PostConstruct
     public void init() {
         System.out.println("User bean has been instantiated and I'm the init() method");
     }
 
+    @PreDestroy
     public void destroy() {
         System.out.println("User bean has been closed and I'm the destroy() method");
     }

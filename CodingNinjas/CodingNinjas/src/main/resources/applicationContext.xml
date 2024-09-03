@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--User List-->
+    <bean id="simpleUser" class="com.Application.CodingNinjas.SimpleUser"
+          scope="prototype"></bean>
+
+    <bean id="simpleUserList" class="com.Application.CodingNinjas.SimpleUserList"
+          scope="prototype"></bean>
+
+<!--Instructor-->
+    <bean id="javaInstructor" class="com.Application.CodingNinjas.JavaInstructor"
+          init-method="inti" destroy-method="destroy"></bean>
+
+    <bean id="springInstructor" class="com.Application.CodingNinjas.SpringInstructor" init-method="init"
+          destroy-method="destroy"></bean>
+
+    <!--PaidCouse With Instructor dependency-->
+    <bean id="paidCouserJava" class="com.Application.CodingNinjas.PaidCourse"
+    >
+        <constructor-arg ref="javaInstructor"></constructor-arg>
+        <constructor-arg ref="simpleUserList"></constructor-arg>
+    </bean>
+    <bean id="paidCouserSpring" class="com.Application.CodingNinjas.PaidCourse"
+    ><constructor-arg ref="springInstructor"></constructor-arg>
+        <constructor-arg ref="simpleUserList"></constructor-arg>
+
+    </bean>
+
+</beans>
+
+<!--No use of this file with the annotations-->

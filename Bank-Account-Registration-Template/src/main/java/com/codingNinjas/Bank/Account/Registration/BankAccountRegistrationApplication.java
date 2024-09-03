@@ -1,6 +1,9 @@
 package com.codingNinjas.Bank.Account.Registration;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.Scanner;
@@ -19,10 +22,15 @@ public class BankAccountRegistrationApplication {
 		* 3. Get account details from user and add them to the account list.
 		* 4. Display the list of accounts with their reference ids.
 		*/
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("ApplicationContext.xml");
+
+      //  ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("ApplicationContext.xml");
+
+        /*In spring we do not have to call by itself spring create*/
+      // AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("com.codingNinjas.Bank.Account.Registration");
+        ApplicationContext context= SpringApplication.run(BankAccountRegistrationApplication.class, args);
         Scanner scanner = new Scanner(System.in);
 
-        User user = context.getBean("myUser", User.class);
+        User user = context.getBean(User.class);
         System.out.println("Welcome to Account Registration Application!");
         System.out.println("Please enter Your name?");
         String name = scanner.nextLine();
@@ -67,7 +75,7 @@ public class BankAccountRegistrationApplication {
             System.out.println(acc.getAccountType() + ": opening balance - " + acc.getBalance() + ", Reference Id - @" + acc.hashCode());
         }
         scanner.close();
-        context.close();
+//        context.close();
 
 
     }
