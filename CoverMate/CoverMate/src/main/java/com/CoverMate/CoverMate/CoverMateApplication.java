@@ -6,6 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.Scanner;
 
+@Author(name = "Aditya Srivastava",date = "04-08-2024")
 public class CoverMateApplication {
 
     public static void main(String[] args) {
