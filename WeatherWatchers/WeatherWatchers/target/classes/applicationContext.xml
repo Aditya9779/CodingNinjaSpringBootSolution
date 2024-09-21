@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="myUser" class="com.WW.WeatherWatchers.myUser" init-method="init" destroy-method="destroy">
+    <property name="location" ref="myLocation"/>
+    <property name="weatherForecast" ref="myForecast"/> </bean>
+
+    <bean id="myLocation" scope="prototype" class="com.WW.WeatherWatchers.myLocation" init-method="init" >
+    </bean>
+
+    <bean id="myForecast" class="com.WW.WeatherWatchers.myForecast"/>
+
+
+</beans>
