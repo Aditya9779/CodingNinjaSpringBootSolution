@@ -9,6 +9,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import java.util.Scanner;
 
 @SpringBootApplication
+@Author(name = "Aditya Srivastava",date = "06-08-2024")
 public class BankAccountRegistrationApplication {
 
     public static void main(String[] args) {
