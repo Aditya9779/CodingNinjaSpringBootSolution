@@ -7,6 +7,7 @@ import org.springframework.context.ApplicationContext;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+@Author(name = "Aditya Srivastava", date = "07-08-2024")
 @SpringBootApplication  //---this is calling we dont have to create by itself spring create
 public class CodingNinjasApplication {
 
