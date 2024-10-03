@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 @SpringBootApplication
+@Author(name = "Aditya Srivastava",date = "12-08-2024")
 public class ReadWellApplication {
 
     public static void main(String[] args) {
