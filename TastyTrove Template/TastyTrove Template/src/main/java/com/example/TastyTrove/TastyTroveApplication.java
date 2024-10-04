@@ -69,6 +69,7 @@ public class TastyTroveApplication {
 }*/
 package com.example.TastyTrove;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -77,6 +78,7 @@ import org.springframework.context.annotation.ComponentScan;
 import java.util.Scanner;
 
 @SpringBootApplication
+@Author(name = "Aditya Srivastava",date = "09-08-2024")
 @ComponentScan("com.example.TastyTrove")
 public class TastyTroveApplication {
 
