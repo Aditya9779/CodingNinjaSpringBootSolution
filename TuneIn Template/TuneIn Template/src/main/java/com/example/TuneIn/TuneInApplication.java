@@ -6,6 +6,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import java.util.Scanner;
 
 @SpringBootApplication
+@Author(name = "Aditya Srivastava", date = "11-08-2024")
 public class TuneInApplication {
 
     public static void main(String[] args) {
