@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@Author(name = "Aditya Srivastava", date = "16-08-2024")
+@Author(name = "Aditya Srivasta", date = "16-08-2024")
 public class AirtelProblemApplication {
     public static void main(String[] args) {
         SpringApplication.run(AirtelProblemApplication.class, args);
