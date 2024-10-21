@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/commpassion
+    username: root
+    password: 3229
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate.ddl-auto: update
+  # Configurations for Okta/google/GitHub
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: Ov23liIoEWvcSm0O16Jy
+            clientSecret: 5844786fd8615ea80bd56dc6bf786f9182361422
+
