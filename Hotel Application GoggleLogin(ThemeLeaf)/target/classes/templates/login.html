@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+
+<h2>Login Form</h2>
+
+<form th:action="@{/login}" method="post">
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" th:value="${username}" required>
+    </div>
+
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+    </div>
+
+    <div>
+        <input type="checkbox" id="remember-me" name="remember-me" th:checked="${rememberMe}">
+        <label for="remember-me">Remember Me</label>
+    </div>
+
+    <div>
+        <button type="submit">Login</button>
+    </div>
+    <div> <h2><a th:href="@{/oauth2/authorization/google}">Login With Google</a> </h2>
+    </div>
+</form>
+
+</body>
+</html>
