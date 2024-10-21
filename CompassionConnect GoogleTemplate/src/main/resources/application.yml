@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/commpassion?createDatabaseIfNotExist=true
+    username: root
+    password: 3229
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate.ddl-auto: update
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 701486087464-f589rpmmin4bf1rdtsi9257vbkldujgu.apps.googleusercontent.com
+            client-secret: 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
+
