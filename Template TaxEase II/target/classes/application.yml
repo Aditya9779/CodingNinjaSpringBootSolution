@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/tax_application?createDatabaseIfNotExist=true
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate.ddl-auto: create-drop
+server:
+  port: 8080
+okta:
+  oauth2:
+    issuer: https://dev-41789342.okta.com/oauth2/default
+    client-id: 0oadfuer45q7DS9Bp5d7
+    client-secret: mU8-n8b9uufr7E4AHkO8MqvqPwp6Nemmf5aR_0PC82IjsepLZ6Sacf1K6uT3fIy3
