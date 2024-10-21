@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ #database
+    username: #username
+    password: #password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate.ddl-auto: update
+server:
+  port: 8080
+  # Configurations for Okta/google/GitHub
+

@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ #database
+    username: #username
+    password: #password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate.ddl-auto: update
+server:
+  port: 8080
+  # Configurations for Okta/google/GitHub
+okta:
+  oauth2:
+    issuer: https://dev-99960427.okta.com/oauth2/Login
+    client-id: 0oakg6qmlxZNwj2lQ5d7
+    client-secret: YK9AA_YXMJUa_7cPaoKDfAl-u650YoTvjSdqAEWtyUjKFlEIiMrR_08rAbQIg0jT
+
