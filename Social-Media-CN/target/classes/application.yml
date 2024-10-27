@@ -1,0 +1,33 @@
+info:
+    app:
+        description: This application fetches all the connections of a user
+        name: Social Media Connections Application
+        version: 1.0
+management:
+    endpoint:
+        health:
+            show-details: always
+    endpoints:
+        web:
+            exposure:
+                include: '*'
+    info:
+        env:
+            enabled: true
+server:
+    port: 8080
+spring:
+    application:
+        name: social_media
+    datasource:
+        password: 3229
+        url: jdbc:mysql://localhost:3306/socialmedia?createDatabaseIfNotExist=true
+        username: root
+    jpa:
+        generate-ddl: true
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate: 
+                dialect: org.hibernate.dialect.MySQL8Dialect
+        show-sql: true
