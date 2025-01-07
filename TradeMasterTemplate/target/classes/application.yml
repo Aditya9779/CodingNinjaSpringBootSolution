@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/TradeMaster?createDatabaseIfNotExist=true
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate.ddl-auto: update
+  output:
+    ansi:
+      enabled: always
+
+# Log config to be added
+
+# 1. Set the logging level of the application as "DEBUG".
+# 2. Save the logs in a file.

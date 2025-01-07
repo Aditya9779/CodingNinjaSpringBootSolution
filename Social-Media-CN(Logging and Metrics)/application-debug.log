@@ -1,0 +1,186 @@
+2024-11-06 - c.e.s.SocialMediaApplication - Starting SocialMediaApplication using Java 17.0.12 with PID 15660 (D:\LOCAL DISC-E(lea)\SpringQuestionCN\Lec21(Logging and Metrics)\Social-Media-CN(Logging and Metrics)\target\classes started by hp in D:\LOCAL DISC-E(lea)\SpringQuestionCN\Lec21(Logging and Metrics)\Social-Media-CN(Logging and Metrics))
+2024-11-06 - c.e.s.SocialMediaApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-06 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-06 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-06 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-06 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 89 ms. Found 1 JPA repository interfaces.
+2024-11-06 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-11-06 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-06 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2024-11-06 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-06 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2791 ms
+2024-11-06 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-06 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.9.Final
+2024-11-06 - org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-11-06 - o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-11-06 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-06 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-06 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6dd012f7
+2024-11-06 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-06 - org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-06 - o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-11-06 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-06 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-06 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-06 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-06 - o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2024-11-06 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-06 - c.e.s.SocialMediaApplication - Started SocialMediaApplication in 7.073 seconds (process running for 8.445)
+2024-11-06 - c.e.s.SocialMediaApplication - Starting SocialMediaApplication using Java 17.0.12 with PID 6280 (D:\LOCAL DISC-E(lea)\SpringQuestionCN\Lec21(Logging and Metrics)\Social-Media-CN(Logging and Metrics)\target\classes started by hp in D:\LOCAL DISC-E(lea)\SpringQuestionCN\Lec21(Logging and Metrics)\Social-Media-CN(Logging and Metrics))
+2024-11-06 - c.e.s.SocialMediaApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-06 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-06 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-06 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-06 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2024-11-06 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-11-06 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-06 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2024-11-06 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-06 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1584 ms
+2024-11-06 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-06 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.9.Final
+2024-11-06 - org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-11-06 - o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-11-06 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-06 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-06 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c9f208
+2024-11-06 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-06 - org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-06 - o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-11-06 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-06 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-06 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-06 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-06 - o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2024-11-06 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-06 - c.e.s.SocialMediaApplication - Started SocialMediaApplication in 4.622 seconds (process running for 5.289)
+2024-11-06 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-06 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-06 - o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-11-06 - c.e.s.controller.userController - Starting to get the connections
+2024-11-06 - c.e.s.controller.userController - Response :[Connection(id=1, name=Aditya, emailId=aditya@, company=volante, username=gx, level=1)]
+2024-11-06 - c.e.s.controller.userController - Starting to get the connections
+2024-11-06 - c.e.s.controller.userController - Response :[Connection(id=1, name=Aditya, emailId=aditya@, company=volante, username=gx, level=1)]
+2024-11-06 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-06 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-06 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-11-06 - c.e.s.SocialMediaApplication - Starting SocialMediaApplication using Java 17.0.12 with PID 14584 (D:\LOCAL DISC-E(lea)\SpringQuestionCN\Lec21(Logging and Metrics)\Social-Media-CN(Logging and Metrics)\target\classes started by hp in D:\LOCAL DISC-E(lea)\SpringQuestionCN\Lec21(Logging and Metrics)\Social-Media-CN(Logging and Metrics))
+2024-11-06 - c.e.s.SocialMediaApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-06 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-06 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-06 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-06 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2024-11-06 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-11-06 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-06 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2024-11-06 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-06 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1260 ms
+2024-11-06 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-06 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.9.Final
+2024-11-06 - org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-11-06 - o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-11-06 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-06 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-06 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5dc1d8a3
+2024-11-06 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-06 - org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-06 - o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-11-06 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-06 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-06 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-06 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-06 - o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2024-11-06 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-06 - c.e.s.SocialMediaApplication - Started SocialMediaApplication in 3.782 seconds (process running for 4.401)
+2024-11-06 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-06 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-06 - o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-11-06 - c.e.s.controller.userController - Starting to get the connections
+2024-11-06 - c.e.s.controller.userController - Response :[Connection(id=1, name=Aditya, emailId=aditya@, company=volante, username=gx, level=1)]
+2024-11-06 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-06 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-06 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-11-06 - c.e.s.SocialMediaApplication - Starting SocialMediaApplication using Java 17.0.12 with PID 14400 (D:\LOCAL DISC-E(lea)\SpringQuestionCN\Lec21(Logging and Metrics)\Social-Media-CN(Logging and Metrics)\target\classes started by hp in D:\LOCAL DISC-E(lea)\SpringQuestionCN\Lec21(Logging and Metrics)\Social-Media-CN(Logging and Metrics))
+2024-11-06 - c.e.s.SocialMediaApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-06 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-06 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-06 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-06 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2024-11-06 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-11-06 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-06 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2024-11-06 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-06 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1185 ms
+2024-11-06 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-06 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.9.Final
+2024-11-06 - org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-11-06 - o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-11-06 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-06 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-06 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19b40d4a
+2024-11-06 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-06 - org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-06 - o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-11-06 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-06 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-06 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-06 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-06 - o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2024-11-06 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-06 - c.e.s.SocialMediaApplication - Started SocialMediaApplication in 3.666 seconds (process running for 4.28)
+2024-11-06 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-06 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-06 - o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-11-06 - c.e.s.controller.userController - Starting to get the connections
+2024-11-06 - c.e.s.controller.userController - Response :[Connection(id=1, name=Aditya, emailId=aditya@, company=volante, username=gx, level=1)]
+2024-11-06 - c.e.s.controller.userController - Starting to get the connections
+2024-11-06 - c.e.s.controller.userController - Response :[Connection(id=1, name=Aditya, emailId=aditya@, company=volante, username=gx, level=1)]
+2024-11-06 - c.e.s.controller.userController - Starting to get the connections
+2024-11-06 - c.e.s.controller.userController - Response :[Connection(id=1, name=Aditya, emailId=aditya@, company=volante, username=gx, level=1)]
+2024-11-06 - c.e.s.controller.userController - Starting to get the connections
+2024-11-06 - c.e.s.controller.userController - Response :[Connection(id=1, name=Aditya, emailId=aditya@, company=volante, username=gx, level=1)]
+2024-11-06 - c.e.s.controller.userController - Starting to get the connections
+2024-11-06 - c.e.s.controller.userController - Response :[Connection(id=1, name=Aditya, emailId=aditya@, company=volante, username=gx, level=1)]
+2024-11-06 - c.e.s.controller.userController - Starting to get the connections
+2024-11-06 - c.e.s.controller.userController - Response :[Connection(id=1, name=Aditya, emailId=aditya@, company=volante, username=gx, level=1)]
+2024-11-06 - c.e.s.controller.userController - Starting to get the connections
+2024-11-06 - c.e.s.controller.userController - Response :[Connection(id=1, name=Aditya, emailId=aditya@, company=volante, username=gx, level=1)]
+2024-11-06 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-06 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-06 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-11-06 - c.e.s.SocialMediaApplication - Starting SocialMediaApplication using Java 17.0.12 with PID 21068 (D:\LOCAL DISC-E(lea)\SpringQuestionCN\Lec21(Logging and Metrics)\Social-Media-CN(Logging and Metrics)\target\classes started by hp in D:\LOCAL DISC-E(lea)\SpringQuestionCN\Lec21(Logging and Metrics)\Social-Media-CN(Logging and Metrics))
+2024-11-06 - c.e.s.SocialMediaApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-06 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-06 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-06 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-06 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2024-11-06 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-11-06 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-06 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2024-11-06 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-06 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1345 ms
+2024-11-06 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-06 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.9.Final
+2024-11-06 - org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-11-06 - o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-11-06 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-06 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-06 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40523d90
+2024-11-06 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-06 - org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-06 - o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-11-06 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-06 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-06 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-06 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-06 - o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2024-11-06 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-06 - c.e.s.SocialMediaApplication - Started SocialMediaApplication in 4.081 seconds (process running for 4.632)
+2024-11-06 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-06 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-06 - o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-11-06 - c.e.s.controller.userController - Starting to get the connections
+2024-11-06 - c.e.s.controller.userController - Response :[Connection(id=1, name=Aditya, emailId=aditya@, company=volante, username=gx, level=1)]
+2024-11-06 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-06 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-06 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
