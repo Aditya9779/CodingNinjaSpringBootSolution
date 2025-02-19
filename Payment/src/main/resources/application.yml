@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: # Database url
+    username: # Username
+    password: # Password
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8087
