@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/telecom_user_service?createDatabaseIfNotExist=true
+    username: root
+    password: 1234
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: create-drop
+  application:
+    name: user-service
+
+server:
+  port: 8081
